@@ -43,7 +43,7 @@
       > -->
   </div>
   <div class="navbar-end">
-    <label class="swap swap-flip">
+    <label class="swap swap-flip mr-6 text-sm">
       <!-- this hidden checkbox controls the state -->
       <input
         on:click={() => {
@@ -53,9 +53,13 @@
       />
 
       <div class="swap-on">
-        <img class="max-h-4 object-scale-down" src={brazil} alt="brasil" />
+        <!-- <img class="max-h-4 object-scale-down" src={brazil} alt="brasil" /> -->
+        EN
       </div>
-      <div class="swap-off"><img class="max-h-4" src={usa} alt="usa" /></div>
+      <div class="swap-off">
+        <!-- <img class="max-h-4" src={usa} alt="usa" /> -->
+        PT
+      </div>
     </label>
   </div>
 </div>

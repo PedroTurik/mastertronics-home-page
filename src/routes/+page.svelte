@@ -10,7 +10,7 @@
       <img
         src={masterJustLogo}
         alt="alt"
-        class="max-sm:max-h-40 filter drop-shadow-2xl"
+        class="max-sm:max-h-40 filter drop-shadow-2xl max-w-md"
       />
       <div>
         <h1
@@ -46,7 +46,7 @@
       </div>
     </div>
   </div>
-  <div class="hero my-24">
+  <!-- <div class="hero my-24">
     <div class="hero-content flex-col lg:flex-row-reverse">
       <img src={masterJustLogo} alt="alt" class="max-sm:max-h-40" />
       <div>
@@ -57,5 +57,5 @@
         </h1>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
