@@ -1,6 +1,4 @@
 <script>
-  import { eng } from "$lib";
-  import ramMemory from "$lib/assets/RamMemory.png";
   import masterJustLogo from "$lib/assets/masterJustLogo.svg";
 </script>
 
@@ -8,12 +6,20 @@
   <section
     class="relative flex flex-col items-center min-h-[400px] py-24 px-[20vw]"
   >
-    <h1>Nice Curves</h1>
-    <p class="z-10">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil reiciendis
-      dolor fugit a et alias libero quisquam totam aut quibusdam expedita
-      distinctio porro quos, explicabo incidunt, neque pariatur quia minima.
-    </p>
+  <div class="z-10 hero-content flex-col lg:flex-row-reverse">
+    <img
+      src={masterJustLogo}
+      alt="alt"
+      class="max-sm:max-h-40 filter drop-shadow-2xl max-w-md"
+    />
+    <div>
+      <h1
+        class="m-auto max-w-xl p-2 text-7xl text-transparent bg-clip-text font-bold bg-gradient-to-br from-[hsl(var(--bc))] to-yellow-600 text-center"
+      >
+        DEVELOPING ELETRONICS TOGETHER
+      </h1>
+    </div>
+  </div>
     <div class="curve absolute h-[225px] w-[100%] bottom-0"></div>
   </section>
   <section
@@ -26,18 +32,10 @@
       pariatur vel animi ea eum excepturi, beatae eos, ut optio iste eaque
       accusamus.
     </p>
+
   </section>
-  <section
-    class="bg-accent relative flex flex-col items-center min-h-[400px] py-24 px-[20vw]"
-  >
-    <h1>Nice Curves</h1>
-    <p>
-      Facere aliquid esse laborum adipisci eaque provident cumque possimus id
-      repellendus ratione, amet dolor debitis mollitia. Officia, animi iste
-      error perspiciatis eveniet blanditiis. Maiores voluptatem eius incidunt
-      impedit! Laudantium, sit!
-    </p>
-  </section>
+  <div class="spacer"></div>
+  
   <section
     class="bg-neutral relative flex flex-col items-center min-h-[400px] py-24 px-[20vw]"
   >
@@ -48,16 +46,7 @@
       repellat nam laudantium, a in odio? Dicta at odio accusamus deleniti!
     </p>
   </section>
-  <section
-    class="bg-info relative flex flex-col items-center min-h-[400px] py-24 px-[20vw]"
-  >
-    <h1>Nice Curves</h1>
-    <p>
-      Ex minus repudiandae voluptatum sit deserunt quia natus, nisi magni unde
-      suscipit nobis vero veritatis quas dolores omnis nihil dolorem ipsum
-      blanditiis dignissimos alias non consequatur quam molestias? Ea, eveniet?
-    </p>
-  </section>
+
 </div>
 
 <style>
@@ -82,4 +71,14 @@
     transform: translate(-4%, 40%);
     z-index: 1;
   }
+
+  .spacer {
+    aspect-ratio: 960/200;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('$lib/assets/layered-waves-haikei.svg');
+  }
+
 </style>
