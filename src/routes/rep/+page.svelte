@@ -1,5 +1,5 @@
 <script lang="ts">
-    import CompanyRow from "./CompanyRow.svelte";
+    import CompanyRow from "$lib/components/CompanyRow.svelte";
 
     import siwardLogo from "$lib/assets/siward.png";
     import phisonLogo from "$lib/assets/Phison-logo.svg.png";
