@@ -23,7 +23,7 @@
     <div class="curve absolute h-[225px] w-[100%] bottom-0" />
   </section>
   <section
-    class="bg-secondary relative flex flex-col items-center min-h-[400px] py-24 px-[20vw]"
+    class="bg-[#dede44] relative flex flex-col items-center min-h-[400px] py-24 px-[20vw]"
   >
     <div class="mt-10 hero-content flex-col lg:flex-row translate-y-7">
       <div class="flex flex-col place-items-center">
@@ -56,7 +56,7 @@
   <div class="spacer" />
 
   <section
-    class="bg-neutral relative flex flex-col items-center min-h-[400px] py-20 px-[20vw]"
+    class="bg-[#7f8082] relative flex flex-col items-center min-h-[400px] py-20 px-[20vw]"
   >
     <div class="z-10 flex-col lg:flex-row-reverse">
       <div>
@@ -117,7 +117,7 @@
     border-radius: 100% 50%;
     width: 55%;
     height: 100%;
-    background-color: hsl(var(--s));
+    background-color: #dede44;
     transform: translate(85%, 60%);
   }
   .curve::after {
@@ -138,6 +138,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url("$lib/assets/layered-waves-haikei.svg");
+    background-image: url("$lib/assets/layer-waves-yellow-gray.svg");
   }
 </style>
